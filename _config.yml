@@ -14,13 +14,13 @@ logo: "/assets/images/df_logo.jpg"
 float_logo: true # true, false (default)
 
 # blog cover
-cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
+cover: "/assets/images/background_image.jpg"
 
 name: 'Buğra Ekuklu'
 author: 'Buğra Ekuklu'
 author_image: "/assets/images/author.jpg"
 
-paginate:	5
+paginate:	10
 
 url: "http://chatatata.github.io" # the base hostname & protocol for your site
 baseurl: ""

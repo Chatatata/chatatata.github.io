@@ -6,14 +6,11 @@ gems:
 # Site settings
 title: "The Bunker Box"
 description: > # this means to ignore newlines until "email:"
-   Redundant posts about distributed systems & data architecture
+   Redundant stories about distributed systems & data architecture
 
 email: ekuklu@icloud.com
-#blog logo
-logo: "/assets/images/df_logo.jpg"
+logo: "/assets/images/logo.gif"
 float_logo: true # true, false (default)
-
-# blog cover
 cover: "/assets/images/background_image.jpg"
 
 name: 'Buğra Ekuklu'

@@ -4,9 +4,9 @@ gems:
   - jekyll-paginate
 
 # Site settings
-title: "The Bunker Box"
+title: "The Nope Box"
 description: > # this means to ignore newlines until "email:"
-   Redundant stories about distributed systems & data architecture
+   I say nope, nope, nope.
 
 email: ekuklu@icloud.com
 logo: "/assets/images/logo.gif"
@@ -19,7 +19,7 @@ author_image: "/assets/images/author.jpg"
 
 paginate:	10
 
-url: "http://chatatata.github.io" # the base hostname & protocol for your site
+url: "http://www.thenopebox.com" # the base hostname & protocol for your site
 baseurl: ""
 
 #fill in disqus shortname to use disqus

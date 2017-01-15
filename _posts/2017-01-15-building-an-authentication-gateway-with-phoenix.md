@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Building an authentication gateway"
-date:   2017-01-15 06:44:28 +0300
+date:   2017-01-02 06:44:28 +0300
 categories: authentication authorization elixir phoenix ecto jwt api csrf
 image: /assets/article_images/2017-01-15-building-an-authentication-gateway-with-phoenix/shebang.jpg
 ---
@@ -70,10 +70,12 @@ According to *OAuth 2.0 security guidelines*, generated tokens should be in a ra
 Authentication stage is conducted by two steps:
 
 1. Concrete authentication:
-  * User credentials are provided by the client, it reflects a polymorphic workflow depending on user's preference of authentication.
 
-2. Stealth authentication
-  * Passphrase is provided by the client silently, in order to renew **JSON Web Token**.
+  User credentials are provided by the client, it reflects a polymorphic workflow depending on user's preference of authentication.
+
+2. Stealth authentication:
+
+  Passphrase is provided by the client silently, in order to renew *JSON Web Token*.
 
 # Concrete authentication workflow
 

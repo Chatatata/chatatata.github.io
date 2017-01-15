@@ -3,6 +3,7 @@ layout: post
 title:  "Building an authentication gateway with Phoenix"
 date:   2017-01-15 06:44:28 +0300
 categories: authentication authorization elixir phoenix ecto jwt api csrf
+image: /assets/article_images/2017-01-15-building-an-authentication-gateway-with-phoenix/shebang.jpg
 ---
 The authentication system is designed by myself while working on a project called **Spherium**. The project itself is not published though, I put it there as a *state-of-the-art* experience log, showing that kind of thing is extremely doable in *Phoenix*, and *Elixir*.
 

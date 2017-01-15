@@ -4,9 +4,9 @@ gems:
   - jekyll-paginate
 
 # Site settings
-title: "Adventures of Chatatata"
+title: "The Bunker Box"
 description: > # this means to ignore newlines until "email:"
-   Distributed Systems & Data Architecture
+   Redundant posts about distributed systems & data architecture
 
 email: ekuklu@icloud.com
 #blog logo

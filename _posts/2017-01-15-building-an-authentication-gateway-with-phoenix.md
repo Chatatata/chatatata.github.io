@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Building an authentication gateway with Phoenix"
+title:  "Building an authentication gateway"
 date:   2017-01-15 06:44:28 +0300
 categories: authentication authorization elixir phoenix ecto jwt api csrf
 image: /assets/article_images/2017-01-15-building-an-authentication-gateway-with-phoenix/shebang.jpg

@@ -4,9 +4,9 @@ gems:
   - jekyll-paginate
 
 # Site settings
-title: "Chatatata"
+title: "Adventures of Chatatata"
 description: > # this means to ignore newlines until "email:"
-   Buğra Ekuklu
+   Distributed Systems and Data Architecture
 
 email: ekuklu@icloud.com
 #blog logo

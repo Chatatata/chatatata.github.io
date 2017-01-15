@@ -10,7 +10,7 @@ description: > # this means to ignore newlines until "email:"
 
 email: ekuklu@icloud.com
 logo: "/assets/images/logo.gif"
-float_logo: true # true, false (default)
+float_logo: false # true, false (default)
 cover: "/assets/images/background_image.jpg"
 
 name: 'Buğra Ekuklu'

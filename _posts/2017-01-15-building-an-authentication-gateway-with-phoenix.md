@@ -13,7 +13,7 @@ This is the artifact of the project I'm implementing right now, with *documentat
 
 # Why authentication is required?
 
-Spherium is a personal learning platform, it uses usage related information in order to supply precise data to the clients. The data of the users and its availability matters. Therefore, in order to perform some actions, Spherium needs to authenticate the user due to philosophical and technical reasons, it provides a layer of access control.
+Spherium uses usage related information in order to supply precise data to the clients. The data of the users and its availability matters. Therefore, in order to perform some actions, Spherium needs to authenticate the user due to philosophical and technical reasons, it provides a layer of access control.
 
 The web service utilizes unified authentication mechanism and it requires two steps of authentication to be successfully completed to authorize to the application.
 

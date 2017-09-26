@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Event sourcing in data-driven domain modeling"
-date:   2017-01-02 06:44:28 +0300
+date:   2017-09-26 04:32:16 +0300
 categories: event sourcing command query response segregation domain modeling database design
 image: /assets/article_images/2017-09-26-event-sourcing-in-data-driven-domain-modeling/shebang.jpg
 ---

@@ -45,7 +45,7 @@ Henceforth, we could create a table for the users, `users` like so:
 When *Hayden* wants to withdraw some bucks, we could do that with following
 query in *PLpgSQL*:
 
-```
+```sql
 UPDATE "users"
 SET "balance" = "balance" - ('20.00 USD')::money
   WHERE "id" = 1 AND "balance" >= ('20.00 USD')::money;
@@ -58,7 +58,7 @@ However, when it comes to transfer, following we need to perform a simple
 transaction.
 We would like to transfer some funds from *Hayden* to *Megan*.
 
-```
+```sql
 BEGIN
   DECLARE
     affected_rows int DEFAULT 0;
@@ -91,7 +91,7 @@ However, it shows a canonical way of doing it correctly.
 
 Finally, we could get the current balance of *Hayden* with:
 
-```
+```sql
 SELECT "balance"
 FROM "users"
   WHERE "id" = 1;
@@ -144,7 +144,7 @@ Should start from simple one, getting current balance information of a user.
 Again, using `PLpgSQL`, we could calculate balance of *Hayden* using an
 aggregate function.
 
-```
+```sql
 WITH (
   SELECT sum("delta")
   FROM "user_balance_changes"
@@ -171,7 +171,7 @@ A query with `UNION` clauses would be semantically equal.
 However, performing a money transfer between those two ladies would be
 simpler than former approach.
 
-```
+```sql
 INSERT INTO "user_transfers" ("source_user_id", "target_user_id", "amount")
   VALUES (1, 2, '2.00 USD'::money);
 ```
@@ -180,7 +180,7 @@ Remembering that query with declaring a variable, beginning a read committed
 transaction and doing sequential updates, this is much more convenient.
 *Hayden* can also deposit some money to the bank:
 
-```
+```sql
 INSERT INTO "user_balance_changes" ("user_id", "delta")
   VALUES (1, '2.00 USD'::money);
 ```
